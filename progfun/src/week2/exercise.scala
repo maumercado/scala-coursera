@@ -1,4 +1,4 @@
-object Main extends App  {
+object Main {
     def factorial (n: Int): Int = {
         def loop (acc: Int, n: Int): Int = {
                 if (n == 0) acc;
